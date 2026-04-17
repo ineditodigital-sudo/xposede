@@ -36,7 +36,7 @@ const services = [
     title: 'DISPLAYS POP',
     shortDescription: 'Material de punto de venta que impulsa las ventas y captura la atención del consumidor.',
     icon: Package,
-    image: 'https://cdn.xposedde.com.mx/repositorio/SITIO-WEB-2026-IMAGENES/DISPLAYS-POP-XPO-SEDDE.webp'
+    image: 'https://imagenes.inedito.digital/XPOSEDDE/DISPLAYS-POP-XPO-SEDDE.webp'
   },
   {
     id: 'espacios-industriales',

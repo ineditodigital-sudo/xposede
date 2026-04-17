@@ -260,7 +260,7 @@ const servicesData: Record<string, ServiceDetail> = {
     id: 'displays-pop',
     title: 'DISPLAYS POP',
     icon: Package,
-    image: 'https://xposedde.com.mx/wp-content/uploads/2025/01/DISPLAYS-POP-XPO-SEDDE.webp',
+    image: 'https://imagenes.inedito.digital/XPOSEDDE/DISPLAYS-POP-XPO-SEDDE.webp',
     description: 'Los displays de punto de venta son esenciales para captar la atención de los clientes en el momento de la compra, destacando productos y reforzando la identidad de la marca',
     benefits: [
       'Diseños que impulsan la compra',
