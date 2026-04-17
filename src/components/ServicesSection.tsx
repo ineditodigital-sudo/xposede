@@ -33,7 +33,7 @@ export function ServicesSection({ onOpenAssistant }: ServicesSectionProps) {
       icon: Presentation,
       title: 'ESCENOGRAFÍAS',
       description: 'Creamos ambientes inmersivos para eventos, presentaciones de productos, congresos y espectáculos.',
-      image: 'https://xposedde.com.mx/wp-content/uploads/2025/01/ESCENOGRAFIAS-scaled.webp',
+      image: 'https://imagenes.inedito.digital/XPOSEDDE/IMG_20231013_123501333.webp',
       features: ['Diseño conceptual', 'Elementos personalizados', 'Audiovisuales integrados', 'Montaje escénico']
     },
     {

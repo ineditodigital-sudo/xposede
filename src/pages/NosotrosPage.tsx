@@ -25,7 +25,7 @@ export function NosotrosPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://xposedde.com.mx/wp-content/uploads/2025/01/ESCENOGRAFIAS-scaled.webp"
+            src="https://imagenes.inedito.digital/XPOSEDDE/IMG_20231013_123501333.webp"
             alt="Exhibition background"
             className="w-full h-full object-cover"
           />

@@ -18,7 +18,7 @@ export function HomePage() {
   const [isAssistantOpen, setIsAssistantOpen] = useState(false);
 
   const heroImages = [
-    'https://cdn.xposedde.com.mx/repositorio/SITIO-WEB-2026-IMAGENES/ESCENOGRAFIAS-scaled.webp',
+    'https://imagenes.inedito.digital/XPOSEDDE/IMG_20231013_123501333.webp',
     'https://cdn.xposedde.com.mx/repositorio/SITIO-WEB-2026-IMAGENES/IMG_20250508_131022-1-scaled.webp',
     'https://cdn.xposedde.com.mx/repositorio/SITIO-WEB-2026-IMAGENES/imagen_2025-11-21_100906781.png',
     'https://cdn.xposedde.com.mx/repositorio/SITIO-WEB-2026-IMAGENES/STANDS-DE-DISENO.webp'

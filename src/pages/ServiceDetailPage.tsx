@@ -231,7 +231,7 @@ const servicesData: Record<string, ServiceDetail> = {
     id: 'escenografias-personalizadas',
     title: 'ESCENOGRAFÍAS',
     icon: Presentation,
-    image: 'https://xposedde.com.mx/wp-content/uploads/2025/01/ESCENOGRAFIAS-scaled.webp',
+    image: 'https://imagenes.inedito.digital/XPOSEDDE/IMG_20231013_123501333.webp',
     description: 'Creamos escenografías completamente personalizadas para eventos corporativos, presentaciones de producto, congresos y activaciones. Desde conceptos innovadores hasta diseños únicos que transforman espacios en experiencias memorables adaptadas a tu visión.',
     benefits: [
       'Diseños creativos 100% personalizados',
