@@ -7,10 +7,11 @@ export function Footer() {
   const currentYear = new Date().getFullYear();
 
   const services = [
-    'Stands de Diseño',
-    'Montaje de Exposiciones',
-    'Escenografías',
-    'Espacios Industriales'
+    { label: 'Stands de Diseño', id: 'stands-diseno' },
+    { label: 'Montaje de Exposiciones', id: 'montaje-exposiciones' },
+    { label: 'Escenografías', id: 'escenografias-personalizadas' },
+    { label: 'Espacios Industriales', id: 'espacios-industriales' },
+    { label: 'Displays POP', id: 'displays-pop' }
   ];
 
   const quickLinks = [
@@ -115,14 +116,14 @@ export function Footer() {
           <div>
             <h4 className="font-subtitle text-lg text-white mb-6">Servicios</h4>
             <ul className="space-y-3">
-              {services.map((service, index) => (
-                <li key={index}>
-                  <button
-                    onClick={() => scrollToSection('servicios')}
+              {services.map((service) => (
+                <li key={service.id}>
+                  <Link
+                    to={`/servicios/${service.id}`}
                     className="font-body text-white/70 hover:text-xposedde-red transition-colors text-left"
                   >
-                    {service}
-                  </button>
+                    {service.label}
+                  </Link>
                 </li>
               ))}
             </ul>
