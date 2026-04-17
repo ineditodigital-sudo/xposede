@@ -138,10 +138,10 @@ export function BolsaTrabajoPage() {
                   <Button
                     onClick={handleSendCV}
                     size="lg"
-                    className="bg-xposedde-red hover:bg-xposedde-red-hover text-white shadow-lg"
+                    className="bg-xposedde-red hover:bg-xposedde-red-hover text-white shadow-lg h-auto py-4 px-6 whitespace-normal text-center leading-tight"
                   >
-                    <Mail className="mr-2 w-5 h-5" />
-                    Enviar mi CV o Solicitud de empleo a Recursos Humanos
+                    <Mail className="mr-2 w-5 h-5 flex-shrink-0" />
+                    <span>Enviar mi CV o Solicitud de empleo a Recursos Humanos</span>
                   </Button>
                   <p className="text-sm text-gray-500 mt-4">
                     recursoshumanos@xposedde.com.mx
