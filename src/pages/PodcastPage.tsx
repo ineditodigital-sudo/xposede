@@ -7,6 +7,7 @@ import { useState } from 'react';
 import { MessageCircle } from 'lucide-react';
 import spotifyIcon from '../assets/spotify-logo.jpg';
 import amazonIcon from '../assets/amazon-music-logo.png';
+import logoXpoDay from '../assets/logo-xpoday.png';
 
 interface Episode {
   id: number;
@@ -123,7 +124,7 @@ export function PodcastPage() {
                 <div className="absolute -inset-4 bg-xposedde-red/20 rounded-full blur-2xl"></div>
                 <div className="relative bg-white/10 backdrop-blur-sm rounded-2xl p-8 border border-white/20">
                   <img 
-                    src="https://xposedde.com.mx/wp-content/uploads/2025/01/logo-xpoday-1.svg" 
+                    src={logoXpoDay} 
                     alt="XPO DAY Podcast"
                     className="h-24 sm:h-32 w-auto"
                   />
