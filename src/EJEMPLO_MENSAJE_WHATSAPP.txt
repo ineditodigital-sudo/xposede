@@ -1,0 +1,180 @@
+==========================================
+  EJEMPLO DE MENSAJE QUE RECIBIRÁS
+==========================================
+
+Este es EXACTAMENTE cómo se verá el mensaje que 
+recibirás en WhatsApp cuando un cliente potencial 
+complete el asistente:
+
+------------------------------------------
+
+🎯 *NUEVA SOLICITUD - ASISTENTE VIRTUAL XPOSEDDE*
+
+👤 *INFORMACIÓN DE CONTACTO:*
+• Nombre: María González López
+• Email: maria.gonzalez@miempresa.com.mx
+• Teléfono: 4491234567
+
+📋 *PERFIL DEL CLIENTE:*
+• Tipo: 🏢 Empresa Establecida
+• Experiencia: Experiencia intermedia
+
+🎨 *DETALLES DEL PROYECTO:*
+• Servicio: 🎨 Stand de Diseño Personalizado
+• Presupuesto: ⭐ Medio ($50,000 a $150,000 MXN)
+• Tiempo: ✨ En 2-3 meses (Ideal)
+
+🎁 *BENEFICIOS PROMETIDOS:*
+✅ Diseño 3D preliminar GRATIS
+✅ Consulta con experto sin costo
+✅ 15% de descuento exclusivo
+✅ Respuesta en menos de 2 horas
+
+_Mensaje generado desde el Asistente Virtual - 11/11/2025, 3:45:30 PM_
+
+------------------------------------------
+
+NOTA: Los asteriscos (*) crean texto en NEGRITAS 
+en WhatsApp, y los guiones bajos (_) crean cursiva.
+
+==========================================
+  VARIACIONES DEL MENSAJE
+==========================================
+
+El mensaje cambia según las respuestas del cliente:
+
+TIPO DE CLIENTE:
+• Empresa → "🏢 Empresa Establecida"
+• Nuevo → "👤 Cliente Nuevo en Exposiciones"
+• Agencia → "💼 Agencia/Organizador"
+
+EXPERIENCIA:
+• Primera vez → "Primera vez (necesito orientación completa)"
+• Intermedia → "Experiencia intermedia"
+• Experimentado → "Muy experimentado"
+
+SERVICIO:
+• Stand → "🎨 Stand de Diseño Personalizado"
+• Montaje → "🔨 Montaje de Exposición Completa"
+• Escenografía → "🎭 Escenografía para Evento"
+• Espacio → "🏗️ Espacio Industrial/Comercial"
+• No seguro → "💬 Asesoría Personalizada"
+
+PRESUPUESTO:
+• Básico → "💡 Básico (Menos de $50,000 MXN)"
+• Medio → "⭐ Medio ($50,000 a $150,000 MXN)"
+• Premium → "💎 Premium ($150,000 a $300,000 MXN)"
+• Alto → "👑 Alto (Más de $300,000 MXN)"
+• Flexible → "💬 Flexible"
+
+TIMELINE:
+• Urgente → "🚀 Urgente (Menos de 2 semanas)"
+• 1 mes → "📅 En 1 mes"
+• 2-3 meses → "✨ En 2-3 meses (Ideal)"
+• +3 meses → "⏰ Más de 3 meses"
+
+==========================================
+  EJEMPLO: CLIENTE NUEVO URGENTE
+==========================================
+
+🎯 *NUEVA SOLICITUD - ASISTENTE VIRTUAL XPOSEDDE*
+
+👤 *INFORMACIÓN DE CONTACTO:*
+• Nombre: Carlos Ramírez
+• Email: carlos@startup.com
+• Teléfono: 4499876543
+
+📋 *PERFIL DEL CLIENTE:*
+• Tipo: 👤 Cliente Nuevo en Exposiciones
+• Experiencia: Primera vez (necesito orientación completa)
+
+🎨 *DETALLES DEL PROYECTO:*
+• Servicio: 🎨 Stand de Diseño Personalizado
+• Presupuesto: 💡 Básico (Menos de $50,000 MXN)
+• Tiempo: 🚀 Urgente (Menos de 2 semanas)
+
+🎁 *BENEFICIOS PROMETIDOS:*
+✅ Diseño 3D preliminar GRATIS
+✅ Consulta con experto sin costo
+✅ 15% de descuento exclusivo
+✅ Respuesta en menos de 2 horas
+
+_Mensaje generado desde el Asistente Virtual - 11/11/2025, 4:15:22 PM_
+
+------------------------------------------
+
+CONSEJO: Este es un cliente perfecto para:
+• Darle más orientación (es nuevo)
+• Responder MUY rápido (es urgente)
+• Ofrecer paquete básico pero de calidad
+• Demostrar experiencia y confiabilidad
+
+==========================================
+  EJEMPLO: AGENCIA CON PRESUPUESTO ALTO
+==========================================
+
+🎯 *NUEVA SOLICITUD - ASISTENTE VIRTUAL XPOSEDDE*
+
+👤 *INFORMACIÓN DE CONTACTO:*
+• Nombre: Ana Patricia Torres
+• Email: ana.torres@agenciacreativa.mx
+• Teléfono: 4491122334
+
+📋 *PERFIL DEL CLIENTE:*
+• Tipo: 💼 Agencia/Organizador
+• Experiencia: Muy experimentado
+
+🎨 *DETALLES DEL PROYECTO:*
+• Servicio: 🔨 Montaje de Exposición Completa
+• Presupuesto: 👑 Alto (Más de $300,000 MXN)
+• Tiempo: ✨ En 2-3 meses (Ideal)
+
+🎁 *BENEFICIOS PROMETIDOS:*
+✅ Diseño 3D preliminar GRATIS
+✅ Consulta con experto sin costo
+✅ 15% de descuento exclusivo
+✅ Respuesta en menos de 2 horas
+
+_Mensaje generado desde el Asistente Virtual - 11/11/2025, 5:20:15 PM_
+
+------------------------------------------
+
+CONSEJO: Este es un cliente premium:
+• Ya sabe lo que quiere (experimentado)
+• Presupuesto alto = proyecto importante
+• Es agencia = posible cliente recurrente
+• Tiempo ideal = puedes hacer trabajo premium
+• ¡Prioridad máxima!
+
+==========================================
+  DATOS CLAVE EN CADA MENSAJE
+==========================================
+
+SIEMPRE RECIBIRÁS:
+
+✅ Nombre completo del cliente
+✅ Email válido (verificado por el formulario)
+✅ Teléfono (mínimo 10 dígitos)
+✅ Tipo de cliente (Empresa/Nuevo/Agencia)
+✅ Nivel de experiencia
+✅ Servicio específico solicitado
+✅ Rango de presupuesto
+✅ Timeline del proyecto
+✅ Lista de beneficios que espera recibir
+✅ Fecha y hora exacta de la solicitud
+
+TOTAL: 12 campos de información valiosa
+
+==========================================
+  DESTINO DEL MENSAJE
+==========================================
+
+Todos los mensajes llegarán a:
+
+📱 WhatsApp: 449 513 6907
+🌍 Código completo: +52 1 449 513 6907
+
+El cliente verá este número como destinatario
+cuando se abra WhatsApp desde el sitio web.
+
+==========================================
