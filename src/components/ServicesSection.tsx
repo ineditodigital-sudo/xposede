@@ -40,7 +40,7 @@ export function ServicesSection({ onOpenAssistant }: ServicesSectionProps) {
       icon: Factory,
       title: 'ESPACIOS INDUSTRIALES Y COMERCIALES',
       description: 'Diseño y acondicionamiento de showrooms, salas de exhibición y espacios corporativos permanentes.',
-      image: 'https://xposedde.com.mx/wp-content/uploads/2025/01/ESPACIOS-INDUSTRIALES-Y-COMERCIALES-scaled.webp',
+      image: 'https://imagenes.inedito.digital/XPOSEDDE/ESPACIOS-INDUSTRIALES-Y-COMERCIALES-scaled.webp',
       features: ['Diseño arquitectónico', 'Mobiliario a medida', 'Branding corporativo', 'Soluciones sostenibles']
     }
   ];

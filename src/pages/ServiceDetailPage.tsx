@@ -282,7 +282,7 @@ const servicesData: Record<string, ServiceDetail> = {
     id: 'espacios-industriales',
     title: 'ESPACIOS INDUSTRIALES Y COMERCIALES',
     icon: Factory,
-    image: 'https://xposedde.com.mx/wp-content/uploads/2025/01/ESPACIOS-INDUSTRIALES-Y-COMERCIALES-scaled.webp',
+    image: 'https://imagenes.inedito.digital/XPOSEDDE/ESPACIOS-INDUSTRIALES-Y-COMERCIALES-scaled.webp',
     description: 'Transformamos espacios industriales y comerciales en experiencias únicas a través de proyectos a la medida. Nos especializamos en maximizar la rentabilidad, funcionalidad y estética de cada metro cuadrado, utilizando materiales sostenibles y un diseño innovador.',
     benefits: [
       'Análisis de flujos y distribución',
