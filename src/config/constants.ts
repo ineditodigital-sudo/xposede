@@ -19,10 +19,10 @@ export const CONTACT_INFO = {
 
 // Redes sociales
 export const SOCIAL_LINKS = {
-  facebook: 'https://facebook.com/xposedde',
-  instagram: 'https://instagram.com/xposedde',
-  linkedin: 'https://linkedin.com/company/xposedde',
-  twitter: 'https://twitter.com/xposedde',
+  facebook: 'https://www.facebook.com/XposeddeMexico',
+  instagram: 'https://www.instagram.com/xpo_sedde?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
+  linkedin: 'https://www.linkedin.com/company/xpo-sedde/posts/?feedView=all',
+  twitter: 'https://x.com/xposedde',
 };
 
 // Función para enviar mensaje directo a WhatsApp
