@@ -69,10 +69,10 @@ export function EscenografiasPage() {
       {/* Hero Section */}
       <HeroSlider
         images={[
-          'https://xposedde.com.mx/wp-content/uploads/2025/03/IMG-20211026-WA0142.webp',
-          'https://xposedde.com.mx/wp-content/uploads/2025/03/DSC_0160.webp',
-          'https://xposedde.com.mx/wp-content/uploads/2025/03/IMG_20221103_201453872.webp',
-          'https://xposedde.com.mx/wp-content/uploads/2025/03/IMG_20231013_123501333.webp',
+          'https://imagenes.inedito.digital/XPOSEDDE/IMG_20231013_123501333.webp',
+          'https://imagenes.inedito.digital/XPOSEDDE/IMG_20221103_201453872.webp',
+          'https://imagenes.inedito.digital/XPOSEDDE/DSC_0160.webp',
+          'https://imagenes.inedito.digital/XPOSEDDE/IMG-20211026-WA0142.webp',
         ]}
         overlay="red"
         showNavigation={false}
