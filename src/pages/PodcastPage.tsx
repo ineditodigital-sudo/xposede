@@ -5,6 +5,8 @@ import { Play, Clock, Calendar, Mic, Headphones } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { useState } from 'react';
 import { MessageCircle } from 'lucide-react';
+import spotifyIcon from '../assets/spotify-logo.jpg';
+import amazonIcon from '../assets/amazon-music-logo.png';
 
 interface Episode {
   id: number;
@@ -73,9 +75,9 @@ export function PodcastPage() {
       name: "Spotify",
       icon: (
         <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png" 
+          src={spotifyIcon} 
           alt="Spotify"
-          className="w-full h-full object-contain"
+          className="w-full h-full object-contain rounded-md"
         />
       ),
       url: "https://open.spotify.com/show/79KXHfdaYQ8dGU3L5L8Q7O",
@@ -85,9 +87,9 @@ export function PodcastPage() {
       name: "Amazon Music",
       icon: (
         <img 
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/2560px-Amazon_logo.svg.png" 
+          src={amazonIcon} 
           alt="Amazon Music"
-          className="w-full h-full object-contain"
+          className="w-full h-full object-contain rounded-md"
         />
       ),
       url: "https://www.amazon.in/XPO-DAY-Podcast/dp/B0BK12L2T9",
