@@ -1,6 +1,6 @@
-import { useParams, Link, useNavigate } from 'react-router-dom';
+import { useParams, Link, useNavigate, useSearchParams } from 'react-router-dom';
 import { motion, useInView } from 'motion/react';
-import { ArrowLeft, CheckCircle, MessageCircle, ChevronLeft, ChevronRight, Palette, ShoppingBag, Lightbulb, Grid3x3 } from 'lucide-react';
+import { ArrowLeft, CheckCircle, MessageCircle, ChevronLeft, ChevronRight, Palette, ShoppingBag, Lightbulb, Grid3x3, Share2 } from 'lucide-react';
 import { Boxes, Building2, Presentation, Factory, Sparkles, Package, Users, Store, SignpostBig, UserCheck, ShieldAlert } from 'lucide-react';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import { Header } from '../components/Header';
@@ -11,6 +11,7 @@ import { ChatAssistant } from '../components/ChatAssistant';
 import { Toaster } from '../components/ui/sonner';
 import { AnimatePresence } from 'motion/react';
 import { Lightbox } from '../components/Lightbox';
+import { toast } from 'sonner';
 
 // Galería de proyectos de Espacios Industriales
 const industrialGalleryImages = [
@@ -850,6 +851,8 @@ function DisplayPopProductsSection({ currentIndex, setCurrentIndex }: { currentI
   const [isTransitioning, setIsTransitioning] = useState(true);
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
+  const [searchParams] = useSearchParams();
+  const displayIdParam = searchParams.get('display');
   
   // Crear array infinito duplicando elementos al inicio y al final
   const infiniteProducts = useMemo(() => {
@@ -877,10 +880,20 @@ function DisplayPopProductsSection({ currentIndex, setCurrentIndex }: { currentI
     return () => window.removeEventListener('resize', updateItemsPerView);
   }, []);
 
-  // Iniciar en el segundo conjunto
+  // Iniciar en el segundo conjunto o en el producto seleccionado
   useEffect(() => {
+    if (displayIdParam) {
+      const id = parseInt(displayIdParam, 10);
+      const index = displayPopProducts.findIndex(p => p.id === id);
+      if (index !== -1) {
+        setCurrentIndex(displayPopProducts.length + index);
+        setLightboxIndex(index);
+        setLightboxOpen(true);
+        return;
+      }
+    }
     setCurrentIndex(displayPopProducts.length);
-  }, [setCurrentIndex]);
+  }, [setCurrentIndex, displayIdParam]);
 
   const nextSlide = () => {
     setIsTransitioning(true);
@@ -971,6 +984,25 @@ function DisplayPopProductsSection({ currentIndex, setCurrentIndex }: { currentI
                       className="group relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-all duration-300 h-full cursor-pointer bg-white"
                       onClick={() => openLightbox(index)}
                     >
+                      <button 
+                        className="absolute top-4 right-4 w-10 h-10 bg-white shadow-lg text-gray-900 hover:bg-[#B40D15] hover:text-white rounded-full flex items-center justify-center transition-all z-50 hover:scale-110 flex-shrink-0"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          const realIndex = index % displayPopProducts.length;
+                          const selectedProduct = displayPopProducts[realIndex];
+                          const url = `${window.location.origin}${window.location.pathname}?display=${selectedProduct.id}&v=${new Date().getTime()}`;
+                          navigator.clipboard.writeText(url);
+                          toast.success('Enlace copiado', { 
+                            description: 'El enlace del display ha sido copiado al portapapeles',
+                            style: { background: '#111827', color: '#f3f4f6', border: 'none' },
+                            descriptionClassName: 'text-gray-300'
+                          });
+                        }}
+                        aria-label="Compartir"
+                        title="Copiar enlace de compartir"
+                      >
+                        <Share2 className="w-5 h-5" />
+                      </button>
                       <div className="relative overflow-hidden p-4">
                         <ImageWithFallback
                           src={product.image}

@@ -17,7 +17,7 @@ function figmaAssetResolver() {
 }
 
   export default defineConfig({
-    base: './',
+    base: '/',
     plugins: [react(), tailwindcss(), figmaAssetResolver()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],

@@ -12,8 +12,17 @@ import { EscenografiasPage } from './pages/EscenografiasPage';
 import { TerminosCondicionesPage } from './pages/TerminosCondicionesPage';
 import { BolsaTrabajoPage } from './pages/BolsaTrabajoPage';
 import { PoliticaPrivacidadPage } from './pages/PoliticaPrivacidadPage';
+import { CatalogosPage } from './pages/CatalogosPage';
 import { ScrollToTop } from './components/ScrollToTop';
 import { useEffect } from 'react';
+
+// Componente para redirecciones externas (tarjetas digitales, etc.)
+function ExternalRedirect({ url }: { url: string }) {
+  useEffect(() => {
+    window.location.replace(url);
+  }, [url]);
+  return null;
+}
 
 export default function App() {
   useEffect(() => {
@@ -54,6 +63,8 @@ export default function App() {
         <Route path="/terminos-condiciones" element={<TerminosCondicionesPage />} />
         <Route path="/bolsa-trabajo" element={<BolsaTrabajoPage />} />
         <Route path="/politica-privacidad" element={<PoliticaPrivacidadPage />} />
+        <Route path="/catalogos" element={<CatalogosPage />} />
+        <Route path="/tarjetas/adriana-guerrero" element={<ExternalRedirect url="https://tarjetas.inedito.digital/xposedde/adriana-guerrero/" />} />
         <Route path="*" element={<HomePage />} />
       </Routes>
     </BrowserRouter>
